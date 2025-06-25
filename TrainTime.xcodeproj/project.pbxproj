@@ -56,13 +56,13 @@
 		788919E42E0748CF00A71A0B /* TrainTime */ = {
 			isa = PBXGroup;
 			children = (
-				788919E52E0748CF00A71A0B /* AppDelegate.swift */,
 				788919E72E0748CF00A71A0B /* SceneDelegate.swift */,
 				788919E92E0748CF00A71A0B /* HomeViewController.swift */,
 				788919EE2E0748DD00A71A0B /* Assets.xcassets */,
 				788919F02E0748DD00A71A0B /* LaunchScreen.storyboard */,
 				788919F32E0748DD00A71A0B /* Info.plist */,
 				788919F92E0749FA00A71A0B /* SimpleTimerViewController.swift */,
+				788919E52E0748CF00A71A0B /* AppDelegate.swift */,
 			);
 			path = TrainTime;
 			sourceTree = "<group>";
