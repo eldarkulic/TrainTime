@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781A2D712E0D9328009C3EEC /* NumberOfSetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A2D702E0D9328009C3EEC /* NumberOfSetsViewController.swift */; };
+		781A2D732E0D9342009C3EEC /* SetDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A2D722E0D9342009C3EEC /* SetDurationViewController.swift */; };
+		781A2D752E0D94D3009C3EEC /* PauseDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A2D742E0D94D3009C3EEC /* PauseDurationViewController.swift */; };
+		781A2D772E0D9505009C3EEC /* SimpleSetPauseTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A2D762E0D9505009C3EEC /* SimpleSetPauseTimerViewController.swift */; };
 		788919E62E0748CF00A71A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788919E52E0748CF00A71A0B /* AppDelegate.swift */; };
 		788919E82E0748CF00A71A0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788919E72E0748CF00A71A0B /* SceneDelegate.swift */; };
 		788919EA2E0748CF00A71A0B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788919E92E0748CF00A71A0B /* HomeViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		781A2D702E0D9328009C3EEC /* NumberOfSetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfSetsViewController.swift; sourceTree = "<group>"; };
+		781A2D722E0D9342009C3EEC /* SetDurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDurationViewController.swift; sourceTree = "<group>"; };
+		781A2D742E0D94D3009C3EEC /* PauseDurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseDurationViewController.swift; sourceTree = "<group>"; };
+		781A2D762E0D9505009C3EEC /* SimpleSetPauseTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSetPauseTimerViewController.swift; sourceTree = "<group>"; };
 		788919E22E0748CF00A71A0B /* TrainTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788919E52E0748CF00A71A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788919E72E0748CF00A71A0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				788919F32E0748DD00A71A0B /* Info.plist */,
 				788919F92E0749FA00A71A0B /* SimpleTimerViewController.swift */,
 				788919E52E0748CF00A71A0B /* AppDelegate.swift */,
+				781A2D702E0D9328009C3EEC /* NumberOfSetsViewController.swift */,
+				781A2D722E0D9342009C3EEC /* SetDurationViewController.swift */,
+				781A2D742E0D94D3009C3EEC /* PauseDurationViewController.swift */,
+				781A2D762E0D9505009C3EEC /* SimpleSetPauseTimerViewController.swift */,
 			);
 			path = TrainTime;
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781A2D712E0D9328009C3EEC /* NumberOfSetsViewController.swift in Sources */,
 				788919FA2E0749FA00A71A0B /* SimpleTimerViewController.swift in Sources */,
 				788919EA2E0748CF00A71A0B /* HomeViewController.swift in Sources */,
+				781A2D752E0D94D3009C3EEC /* PauseDurationViewController.swift in Sources */,
+				781A2D732E0D9342009C3EEC /* SetDurationViewController.swift in Sources */,
 				788919E62E0748CF00A71A0B /* AppDelegate.swift in Sources */,
+				781A2D772E0D9505009C3EEC /* SimpleSetPauseTimerViewController.swift in Sources */,
 				788919E82E0748CF00A71A0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

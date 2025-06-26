@@ -77,6 +77,8 @@ class HomeViewController: UIViewController {
 
     @objc func startSetPauseTimer() {
         print("Navigate to Set-Pause Timer")
+        let vc = NumberOfSetsViewController()
+            navigationController?.pushViewController(vc, animated: true)
     }
 
     @objc func startCustomTimer() {
